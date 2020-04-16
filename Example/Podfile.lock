@@ -1,0 +1,16 @@
+PODS:
+  - ZTOStarView (0.1.0)
+
+DEPENDENCIES:
+  - ZTOStarView (from `../`)
+
+EXTERNAL SOURCES:
+  ZTOStarView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTOStarView: 331a636bdd120288b17268cb1dbd5e84883671ae
+
+PODFILE CHECKSUM: 7e69657499b83c7fa9f9c5f4514b66484bfc4726
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZTOStarView_Example' do
+  pod 'ZTOStarView', :path => '../'
+
+  target 'ZTOStarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
