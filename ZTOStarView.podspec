@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTOStarView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Star rating control 星星评分控件'
 
 # This description is used to generate tags and improve search results.

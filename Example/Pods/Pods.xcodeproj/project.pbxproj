@@ -9,17 +9,14 @@
 /* Begin PBXBuildFile section */
 		0221F18C97A72A84FC6DBDE5CFE41BAE /* star_selected_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 669B45F264C6DBF8057238B947BCC086 /* star_selected_test.png */; };
 		02ED4D65BFA9E01E653060BBA5336E76 /* ZTOEvaluateStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE54BBABC5057C34EEAD9DDC43E21B /* ZTOEvaluateStartView.swift */; };
-		10E239593F16AA6E43C55531509ABED0 /* Pods-ZTOStarView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0297446222BC184CA6B431EF2F67AD /* Pods-ZTOStarView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		183377EF8D2F6858B17F345C7B9A2697 /* ZTOStarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEEB07146A81F231054F395A8AF74FF6 /* ZTOStarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		256C55EF0A182A84DCCA6694C982F530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		53B7DB1CB1DCB2B25AA6C05870695A5C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31780550C4A0FC5D7F10E3188F0FE83 /* ReplaceMe.swift */; };
-		835BBC9AB49796B5DF7A954552C72AE4 /* Pods-ZTOStarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC84E803BEE7E5AE1CDC1A2A79D24C2F /* Pods-ZTOStarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835BBC9AB49796B5DF7A954552C72AE4 /* Pods-ZTOStarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DB90B5771079E53F62A1CADCF4B850 /* Pods-ZTOStarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90E165137DBA8987DD54C3984979D71A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A02A4F5AC4711C17A5B1BB0089BC1F8B /* ZTOStarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39AB615BEE3406900D5A03EF7F24C4E0 /* ZTOStarView.bundle */; };
-		A3B6EAAED45A60E2014097C1CEFC78AD /* Pods-ZTOStarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28B706210B0D60A7AA67D67013E2C8 /* Pods-ZTOStarView_Example-dummy.m */; };
+		A3B6EAAED45A60E2014097C1CEFC78AD /* Pods-ZTOStarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DAF71CF625F93ABFF087A6E9114EE8 /* Pods-ZTOStarView_Example-dummy.m */; };
 		B1F6149818D425B1F1051D3CFEFA56BE /* ZTOStarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B741B394A815319495DA4803102BC3 /* ZTOStarView-dummy.m */; };
 		D1F56D4A63F280DC4331AA65D87909FF /* star_no_selected_test.png in Resources */ = {isa = PBXBuildFile; fileRef = BB697635A90E7E26D7ABAE0DE6D7EE70 /* star_no_selected_test.png */; };
-		D9E1A1E68C01858C5E5F0B92B5526A9E /* Pods-ZTOStarView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7D9BBD4A5705AC13C43253E4EAF65D /* Pods-ZTOStarView_Tests-dummy.m */; };
 		F4060203A84A8800779C6E9CD8FE2F83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,64 +35,40 @@
 			remoteGlobalIDString = 645F595C48D574BF35FF31A005B530E3;
 			remoteInfo = ZTOStarView;
 		};
-		F35A1A6F410ACC85ED40A1CF1B18463D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D067B0991EB0E9A53BF6E21457562631;
-			remoteInfo = "Pods-ZTOStarView_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		058CD501FE7A8E0C25E8DD2599B41A54 /* ZTOStarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZTOStarView.framework; path = ZTOStarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0601701DE1368FBDD656C78B44D1F98F /* ResourceBundle-ZTOStarView-ZTOStarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZTOStarView-ZTOStarView-Info.plist"; sourceTree = "<group>"; };
 		0776557405A866669E5FE01816DBBB6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		203933BA34B65717E3692C55830AA0E9 /* Pods-ZTOStarView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTOStarView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		210F161885D1507C0B1E0C41AE3D2931 /* Pods-ZTOStarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTOStarView_Tests.modulemap"; sourceTree = "<group>"; };
+		2AE87164A7E08A4E475FF8B11B6FEFBE /* Pods-ZTOStarView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTOStarView_Example-Info.plist"; sourceTree = "<group>"; };
 		2E9623126D6B6C7ED6A48F15ABACF489 /* ZTOStarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZTOStarView.modulemap; sourceTree = "<group>"; };
+		2F0DF0019ED5A68E995F50E90F190B68 /* Pods-ZTOStarView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTOStarView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		31DE54BBABC5057C34EEAD9DDC43E21B /* ZTOEvaluateStartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZTOEvaluateStartView.swift; path = ZTOStarView/Classes/ZTOEvaluateStartView.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35B741B394A815319495DA4803102BC3 /* ZTOStarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTOStarView-dummy.m"; sourceTree = "<group>"; };
 		39AB615BEE3406900D5A03EF7F24C4E0 /* ZTOStarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZTOStarView.bundle; path = "ZTOStarView-ZTOStarView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D13F0412D8502AFCC747108029EDDA6 /* Pods-ZTOStarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTOStarView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		40CA6E40049A6260C37E024CF6AF26E9 /* Pods-ZTOStarView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTOStarView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		54E5381BCA862F1658E13F8894662790 /* Pods-ZTOStarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTOStarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		669B45F264C6DBF8057238B947BCC086 /* star_selected_test.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star_selected_test.png; path = ZTOStarView/Assets/star_selected_test.png; sourceTree = "<group>"; };
-		6DD2C4FA4A096F613D0B43943B65EE34 /* Pods-ZTOStarView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZTOStarView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6F0297446222BC184CA6B431EF2F67AD /* Pods-ZTOStarView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTOStarView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		891110EAEEBCA54DC70408DB9A03D345 /* Pods-ZTOStarView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTOStarView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		752337B94DF40070B588BF2437A4FE42 /* Pods-ZTOStarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTOStarView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7763F03CC8563FBC66F9D7CD21B02AE4 /* Pods-ZTOStarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTOStarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		78B989EEA54096D4D684182AD86D1411 /* Pods-ZTOStarView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZTOStarView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		78DAF71CF625F93ABFF087A6E9114EE8 /* Pods-ZTOStarView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTOStarView_Example-dummy.m"; sourceTree = "<group>"; };
 		8918288DCFA5D5C669D7AE294E0F1B8A /* Pods_ZTOStarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZTOStarView_Example.framework; path = "Pods-ZTOStarView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92253AAF0DEA117032A6A9B60B9B1FA2 /* Pods-ZTOStarView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTOStarView_Example-Info.plist"; sourceTree = "<group>"; };
+		91DB90B5771079E53F62A1CADCF4B850 /* Pods-ZTOStarView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTOStarView_Example-umbrella.h"; sourceTree = "<group>"; };
 		9620A652463E2FA69FBBB8C8E7C28982 /* ZTOStarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTOStarView.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE929915E81BA988250131100F67429 /* Pods-ZTOStarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTOStarView_Example.modulemap"; sourceTree = "<group>"; };
 		A120E3C59B36AF43D4D02D108328951A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A31780550C4A0FC5D7F10E3188F0FE83 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZTOStarView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		A3C298E7CE1D3CBBD65AE8A4BC4D55B7 /* Pods-ZTOStarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTOStarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A4330ECEC528DF8D339B47382755A295 /* Pods-ZTOStarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTOStarView_Example.modulemap"; sourceTree = "<group>"; };
 		A6F6001E1FC4E4C03E0EF06D54B411CE /* ZTOStarView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZTOStarView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD886D0672FE6A51092E4A8150CEECE0 /* Pods_ZTOStarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZTOStarView_Tests.framework; path = "Pods-ZTOStarView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEB07146A81F231054F395A8AF74FF6 /* ZTOStarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTOStarView-umbrella.h"; sourceTree = "<group>"; };
 		BB697635A90E7E26D7ABAE0DE6D7EE70 /* star_no_selected_test.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star_no_selected_test.png; path = ZTOStarView/Assets/star_no_selected_test.png; sourceTree = "<group>"; };
-		BC84E803BEE7E5AE1CDC1A2A79D24C2F /* Pods-ZTOStarView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTOStarView_Example-umbrella.h"; sourceTree = "<group>"; };
 		BDAC92B5DCB6F324B0989D93FE4201C3 /* ZTOStarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTOStarView-prefix.pch"; sourceTree = "<group>"; };
+		C463DAC9FF3E0E801258993AE1F29D86 /* Pods-ZTOStarView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTOStarView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF168DEBF65ADDF670DD4A491E7922E0 /* ZTOStarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZTOStarView-Info.plist"; sourceTree = "<group>"; };
-		D625A03B9052C7544BD41C1BA41EEB32 /* Pods-ZTOStarView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTOStarView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DB7D9BBD4A5705AC13C43253E4EAF65D /* Pods-ZTOStarView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTOStarView_Tests-dummy.m"; sourceTree = "<group>"; };
-		DDD50BB192F793826FC491E26FECDF98 /* Pods-ZTOStarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTOStarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA28B706210B0D60A7AA67D67013E2C8 /* Pods-ZTOStarView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTOStarView_Example-dummy.m"; sourceTree = "<group>"; };
-		F822861ACA270354117800E102E2117C /* Pods-ZTOStarView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTOStarView_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		612D9F977DBDE66541F8F6CA8DECFF7D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				256C55EF0A182A84DCCA6694C982F530 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BE29C454F12AF677D13BED8EC94DD73B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0286FF8F2382BA1B8A7030A9EF04FFA0 /* Pods-ZTOStarView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9DE929915E81BA988250131100F67429 /* Pods-ZTOStarView_Example.modulemap */,
+				C463DAC9FF3E0E801258993AE1F29D86 /* Pods-ZTOStarView_Example-acknowledgements.markdown */,
+				2F0DF0019ED5A68E995F50E90F190B68 /* Pods-ZTOStarView_Example-acknowledgements.plist */,
+				78DAF71CF625F93ABFF087A6E9114EE8 /* Pods-ZTOStarView_Example-dummy.m */,
+				78B989EEA54096D4D684182AD86D1411 /* Pods-ZTOStarView_Example-frameworks.sh */,
+				2AE87164A7E08A4E475FF8B11B6FEFBE /* Pods-ZTOStarView_Example-Info.plist */,
+				91DB90B5771079E53F62A1CADCF4B850 /* Pods-ZTOStarView_Example-umbrella.h */,
+				7763F03CC8563FBC66F9D7CD21B02AE4 /* Pods-ZTOStarView_Example.debug.xcconfig */,
+				752337B94DF40070B588BF2437A4FE42 /* Pods-ZTOStarView_Example.release.xcconfig */,
+			);
+			name = "Pods-ZTOStarView_Example";
+			path = "Target Support Files/Pods-ZTOStarView_Example";
+			sourceTree = "<group>";
+		};
 		0EA252E3F9156C74118A53FB21538707 /* ZTOStarView */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,59 +150,6 @@
 			path = "Example/Pods/Target Support Files/ZTOStarView";
 			sourceTree = "<group>";
 		};
-		3FD8B47CDE43831FA3945C67EB212FE1 /* Pods-ZTOStarView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				A4330ECEC528DF8D339B47382755A295 /* Pods-ZTOStarView_Example.modulemap */,
-				891110EAEEBCA54DC70408DB9A03D345 /* Pods-ZTOStarView_Example-acknowledgements.markdown */,
-				203933BA34B65717E3692C55830AA0E9 /* Pods-ZTOStarView_Example-acknowledgements.plist */,
-				EA28B706210B0D60A7AA67D67013E2C8 /* Pods-ZTOStarView_Example-dummy.m */,
-				6DD2C4FA4A096F613D0B43943B65EE34 /* Pods-ZTOStarView_Example-frameworks.sh */,
-				92253AAF0DEA117032A6A9B60B9B1FA2 /* Pods-ZTOStarView_Example-Info.plist */,
-				BC84E803BEE7E5AE1CDC1A2A79D24C2F /* Pods-ZTOStarView_Example-umbrella.h */,
-				DDD50BB192F793826FC491E26FECDF98 /* Pods-ZTOStarView_Example.debug.xcconfig */,
-				3D13F0412D8502AFCC747108029EDDA6 /* Pods-ZTOStarView_Example.release.xcconfig */,
-			);
-			name = "Pods-ZTOStarView_Example";
-			path = "Target Support Files/Pods-ZTOStarView_Example";
-			sourceTree = "<group>";
-		};
-		51A764E7FA305B1F2B5AFB10609A1684 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8918288DCFA5D5C669D7AE294E0F1B8A /* Pods_ZTOStarView_Example.framework */,
-				AD886D0672FE6A51092E4A8150CEECE0 /* Pods_ZTOStarView_Tests.framework */,
-				39AB615BEE3406900D5A03EF7F24C4E0 /* ZTOStarView.bundle */,
-				058CD501FE7A8E0C25E8DD2599B41A54 /* ZTOStarView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5294A31897FCA55DD24D0988C5DBC3E6 /* Pods-ZTOStarView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				210F161885D1507C0B1E0C41AE3D2931 /* Pods-ZTOStarView_Tests.modulemap */,
-				D625A03B9052C7544BD41C1BA41EEB32 /* Pods-ZTOStarView_Tests-acknowledgements.markdown */,
-				40CA6E40049A6260C37E024CF6AF26E9 /* Pods-ZTOStarView_Tests-acknowledgements.plist */,
-				DB7D9BBD4A5705AC13C43253E4EAF65D /* Pods-ZTOStarView_Tests-dummy.m */,
-				F822861ACA270354117800E102E2117C /* Pods-ZTOStarView_Tests-Info.plist */,
-				6F0297446222BC184CA6B431EF2F67AD /* Pods-ZTOStarView_Tests-umbrella.h */,
-				A3C298E7CE1D3CBBD65AE8A4BC4D55B7 /* Pods-ZTOStarView_Tests.debug.xcconfig */,
-				54E5381BCA862F1658E13F8894662790 /* Pods-ZTOStarView_Tests.release.xcconfig */,
-			);
-			name = "Pods-ZTOStarView_Tests";
-			path = "Target Support Files/Pods-ZTOStarView_Tests";
-			sourceTree = "<group>";
-		};
-		6B72356E9A11EFD6AFAE69D8FE6414C9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3FD8B47CDE43831FA3945C67EB212FE1 /* Pods-ZTOStarView_Example */,
-				5294A31897FCA55DD24D0988C5DBC3E6 /* Pods-ZTOStarView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		8B40A62CB5455198180549481C6D4604 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +157,24 @@
 				669B45F264C6DBF8057238B947BCC086 /* star_selected_test.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		8C2A3A1898CA06F4506F56B272D7F00C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8918288DCFA5D5C669D7AE294E0F1B8A /* Pods_ZTOStarView_Example.framework */,
+				39AB615BEE3406900D5A03EF7F24C4E0 /* ZTOStarView.bundle */,
+				058CD501FE7A8E0C25E8DD2599B41A54 /* ZTOStarView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B929AEBA80A0F54E1D876E274FD1C9E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0286FF8F2382BA1B8A7030A9EF04FFA0 /* Pods-ZTOStarView_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		B97ED50DDB1CDCEEE78649205FCFC296 /* Development Pods */ = {
@@ -244,8 +199,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				B97ED50DDB1CDCEEE78649205FCFC296 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				51A764E7FA305B1F2B5AFB10609A1684 /* Products */,
-				6B72356E9A11EFD6AFAE69D8FE6414C9 /* Targets Support Files */,
+				8C2A3A1898CA06F4506F56B272D7F00C /* Products */,
+				9B929AEBA80A0F54E1D876E274FD1C9E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -273,14 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				835BBC9AB49796B5DF7A954552C72AE4 /* Pods-ZTOStarView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D07140A4647A192B101696567BF93FFA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10E239593F16AA6E43C55531509ABED0 /* Pods-ZTOStarView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,25 +272,6 @@
 			productReference = 8918288DCFA5D5C669D7AE294E0F1B8A /* Pods_ZTOStarView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EE774C01EAF2CEA34279749B3DDCCE5A /* Pods-ZTOStarView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C7340CDBAA73AEA0ABBC5520DA098EC /* Build configuration list for PBXNativeTarget "Pods-ZTOStarView_Tests" */;
-			buildPhases = (
-				D07140A4647A192B101696567BF93FFA /* Headers */,
-				D8B09119BD164B8E653CF9D01627F4DD /* Sources */,
-				612D9F977DBDE66541F8F6CA8DECFF7D /* Frameworks */,
-				7C02F847F90CD4A686C0577038BB8E9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B2E9CC28D48D8EC03076B15DBA7BC72 /* PBXTargetDependency */,
-			);
-			name = "Pods-ZTOStarView_Tests";
-			productName = "Pods-ZTOStarView_Tests";
-			productReference = AD886D0672FE6A51092E4A8150CEECE0 /* Pods_ZTOStarView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		FFDCB927AFA2C5A3D7FDB1A0B382EAB6 /* ZTOStarView-ZTOStarView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DAA46CC22D2802E07BC0AC285CE8A5D /* Build configuration list for PBXNativeTarget "ZTOStarView-ZTOStarView" */;
@@ -379,12 +307,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 51A764E7FA305B1F2B5AFB10609A1684 /* Products */;
+			productRefGroup = 8C2A3A1898CA06F4506F56B272D7F00C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D067B0991EB0E9A53BF6E21457562631 /* Pods-ZTOStarView_Example */,
-				EE774C01EAF2CEA34279749B3DDCCE5A /* Pods-ZTOStarView_Tests */,
 				645F595C48D574BF35FF31A005B530E3 /* ZTOStarView */,
 				FFDCB927AFA2C5A3D7FDB1A0B382EAB6 /* ZTOStarView-ZTOStarView */,
 			);
@@ -405,13 +332,6 @@
 			files = (
 				D1F56D4A63F280DC4331AA65D87909FF /* star_no_selected_test.png in Resources */,
 				0221F18C97A72A84FC6DBDE5CFE41BAE /* star_selected_test.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C02F847F90CD4A686C0577038BB8E9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,14 +363,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8B09119BD164B8E653CF9D01627F4DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9E1A1E68C01858C5E5F0B92B5526A9E /* Pods-ZTOStarView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E6AA7B6860A19CF5C204E60614DE7E81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,12 +374,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8B2E9CC28D48D8EC03076B15DBA7BC72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZTOStarView_Example";
-			target = D067B0991EB0E9A53BF6E21457562631 /* Pods-ZTOStarView_Example */;
-			targetProxy = F35A1A6F410ACC85ED40A1CF1B18463D /* PBXContainerItemProxy */;
-		};
 		8CF3EB847964C4A21EB94B0C4C450ACB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ZTOStarView-ZTOStarView";
@@ -502,7 +408,7 @@
 		};
 		442AFACAB9A4C2FEED942AA0F1FD91B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D13F0412D8502AFCC747108029EDDA6 /* Pods-ZTOStarView_Example.release.xcconfig */;
+			baseConfigurationReference = 752337B94DF40070B588BF2437A4FE42 /* Pods-ZTOStarView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -660,7 +566,7 @@
 		};
 		C87FA436D69B9C6FF75088FD54CEB363 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDD50BB192F793826FC491E26FECDF98 /* Pods-ZTOStarView_Example.debug.xcconfig */;
+			baseConfigurationReference = 7763F03CC8563FBC66F9D7CD21B02AE4 /* Pods-ZTOStarView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -739,73 +645,6 @@
 			};
 			name = Debug;
 		};
-		EB6142C5FE622A1CA1FC92EA465F98F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C298E7CE1D3CBBD65AE8A4BC4D55B7 /* Pods-ZTOStarView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZTOStarView_Tests/Pods-ZTOStarView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZTOStarView_Tests/Pods-ZTOStarView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ED93257837D14DB0A5B44B4C2DAB910F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E5381BCA862F1658E13F8894662790 /* Pods-ZTOStarView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZTOStarView_Tests/Pods-ZTOStarView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZTOStarView_Tests/Pods-ZTOStarView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FC6A51155D9A93994701B272EF8369F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9620A652463E2FA69FBBB8C8E7C28982 /* ZTOStarView.xcconfig */;
@@ -841,15 +680,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C7340CDBAA73AEA0ABBC5520DA098EC /* Build configuration list for PBXNativeTarget "Pods-ZTOStarView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB6142C5FE622A1CA1FC92EA465F98F4 /* Debug */,
-				ED93257837D14DB0A5B44B4C2DAB910F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

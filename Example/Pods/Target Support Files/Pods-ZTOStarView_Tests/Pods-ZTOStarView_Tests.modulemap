@@ -1,6 +1,0 @@
-framework module Pods_ZTOStarView_Tests {
-  umbrella header "Pods-ZTOStarView_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
