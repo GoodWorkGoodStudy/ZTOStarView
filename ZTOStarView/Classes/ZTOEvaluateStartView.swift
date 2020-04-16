@@ -10,8 +10,14 @@
 
 import UIKit
 
-// 是否折叠，点击事件回调
+// 星星数量，block点击事件回调
 public typealias EvaluateStarNumberBlock = (_ number: Float) -> Void
+
+// 星星数量，代理点击事件回调
+public protocol ZTOEvaluateStartViewDelegate: NSObjectProtocol {
+    // 评价星星数量回调
+    func evaluateStarNumberCallback(_ number: Float, _ starView: ZTOEvaluateStartView)
+}
 
 // 外部调用的评分的 View
 // 外部设置宽度和高度的时候要和 承载星星的容器高度宽度一致
@@ -53,6 +59,9 @@ public class ZTOEvaluateStartView: UIView {
     public var starViewHeight: CGFloat {
         return satrWH
     }
+    
+    // 代理
+    public weak var delegate: ZTOEvaluateStartViewDelegate?
 
     // 只读属性 承载星星的视图的宽度
     // 外部布局的时候使用
@@ -116,6 +125,11 @@ public class ZTOEvaluateStartView: UIView {
         // 动效显示评分
         showStarRate()
         
+        // 代理 回调
+        if let dele = self.delegate {
+            dele.evaluateStarNumberCallback(score, self)
+        }
+        // block回调
         guard let block = evaluateStarNumberCallback else {
             return
         }

@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         view.starCount = 5
         view.starMargin = 10
         view.selectedStarCount = 0
+        view.delegate = self
 
         // 评分回调
         view.evaluateStarNumberCallback = { number in
@@ -42,5 +43,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+extension ViewController: ZTOEvaluateStartViewDelegate {
+    func evaluateStarNumberCallback(_ number: Float, _ starView: ZTOEvaluateStartView) {
+        debugPrint("当前点击星星的数量\(number)")
+    }
 }
 
